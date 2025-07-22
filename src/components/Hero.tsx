@@ -22,17 +22,17 @@ export const Hero = () => {
               </div>
               <span className="text-accent-foreground font-medium">Trusted by 10,000+ customers</span>
             </div>
-            
+
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-primary-foreground mb-6 leading-tight">
               Spread Joy with Our
               <span className="block text-accent">Gourmet Peanut Butter</span>
             </h1>
-            
+
             <p className="text-lg md:text-xl text-primary-foreground/90 mb-8 max-w-2xl mx-auto lg:mx-0">
-              Handcrafted with the finest roasted peanuts and natural ingredients. 
+              Handcrafted with the finest roasted peanuts and natural ingredients.
               Experience the rich, creamy taste that brings families together.
             </p>
-            
+
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <Button size="lg" variant="accent" className="text-lg px-8 py-4">
                 Shop Collection
@@ -68,12 +68,12 @@ export const Hero = () => {
                 alt="Premium peanut butter with natural ingredients"
                 className="w-full h-[400px] lg:h-[500px] object-cover"
               />
-              
+
               {/* Floating Elements */}
               <div className="absolute top-6 right-6 bg-accent text-accent-foreground px-4 py-2 rounded-full font-semibold shadow-medium animate-bounce">
                 Fresh Daily!
               </div>
-              
+
               <div className="absolute bottom-6 left-6 bg-background/90 backdrop-blur p-4 rounded-lg shadow-medium">
                 <div className="flex items-center gap-3">
                   <div className="w-12 h-12 bg-gradient-accent rounded-full flex items-center justify-center">
