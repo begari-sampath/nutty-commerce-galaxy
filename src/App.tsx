@@ -28,6 +28,7 @@ import PrivacyPolicyPage from "@/pages/PrivacyPolicy";
 import TermsConditionsPage from "@/pages/TermsConditions";
 import ShippingInfoPage from "@/pages/ShippingInfo";
 import ReturnPolicyPage from "@/pages/ReturnPolicy";
+
 import FAQsPage from "@/pages/FAQs";
 
 const queryClient = new QueryClient();
@@ -63,6 +64,7 @@ const App = () => (
           <Route path="/return-policy" element={<ReturnPolicyPage />} />
           <Route path="/faqs" element={<FAQsPage />} />
           <Route path="*" element={<NotFound />} />
+          
         </Routes>
         <Footer />
       </BrowserRouter>
