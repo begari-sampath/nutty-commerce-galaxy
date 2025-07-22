@@ -28,6 +28,7 @@ export const Header = () => {
             <a href="/products" className="text-foreground hover:text-primary transition-colors">
               Products
             </a>
+            {/* Other links unchanged */}
             <a href="/about" className="text-foreground hover:text-primary transition-colors">
               About
             </a>
